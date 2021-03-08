@@ -1,0 +1,156 @@
+
+.bgWhite {background-color: white}
+.bgGray {background-color: #f2f2f2}
+.tCenter {text-align: center}
+.tLeft {text-align: left}
+.tRight {text-align: right}
+
+.fl {float:left}
+.fr {float:right}
+
+.flexWrap { display: flex; flex-wrap: wrap; justify-content:flex-start }
+.flexWrapCenter { display: flex; flex-wrap: wrap; justify-content:center; text-align: center; }
+.flexWrapBetween { display: flex; flex-wrap: wrap; justify-content:space-between; text-align: center; }
+.flexWrapEnd { display: flex; flex-wrap: wrap; justify-content:flex-end; text-align: right; }
+.flex {display: flex}
+.flexH {display: flex; flex-direction: row}
+.flexV {display: flex; flex-direction: column}
+.inFlex {display: inline-flex}
+.block {display: block}
+
+
+.pr {position: relative}
+.pa {position: absolute;left:0;top:0;width:100%;height:100%}
+.pf {position: fixed;left:0;top:0;width:100%;height:100%;}
+
+.mt-5 {margin-top: 5px;}
+.mt-10 {margin-top: 10px;}
+.mt-15 {margin-top: 15px;}
+.mt-20 {margin-top: 20px;}
+.mt-30 {margin-top: 30px;}
+.mt-40 {margin-top: 40px;}
+.mb-10 {margin-bottom: 10px;}
+.mb-15 {margin-bottom: 15px;}
+.mb-20 {margin-bottom: 20px;}
+.mb-30 {margin-bottom: 30px;}
+.ml-5 {margin-left:5px;}
+.ml-10 {margin-left:10px;}
+.ml-15 {margin-left:15px;}
+.ml-25 {margin-left:25px;}
+.ml-30 {margin-left:30px;}
+.mr-10 {margin-right:10px;}
+.mr-15 {margin-right:15px;}
+.mr-25 {margin-right:25px;}
+.mr-30 {margin-right:30px;}
+.m-30 {margin:30px;}
+
+.pt-20 {padding-top: 20px;}
+.pt-30 {padding-top: 30px;}
+.pl-20 {padding-left: 20px;}
+.pl-30 {padding-left: 30px;}
+.pr-20 {padding-right: 20px;}
+.pr-30 {padding-right: 30px;}
+.p-20 {padding: 20px;}
+.p-30 {padding: 30px;}
+
+.w100 {width:100vw}
+.w-per100 {width:100%}
+
+.h100 {height:100vh}
+.h-per100 {height: 100%}
+
+.strike { text-decoration: line-through }
+
+.colorGray {color:#aaaaaa}
+.colorOk { color:#09bb07;}
+.colorError { color:#e64340;}
+.colorDisable { color:#888888;}
+.colorPlaceHolder { color: #bbbbbb;}
+.placeholder { color: #bbbbbb; font-size: 28px; text-align: left; line-height: 40px; }
+
+
+.hover { -webkit-filter:grayscale(0.2); opacity:0.85;}
+.hoverDeep { -webkit-filter:grayscale(0.2); opacity:0.65;}
+
+
+.formView { position: absolute; left: 0; top: 0; width:100%; height:100% }
+.formBtn { position: absolute; width: 100%; height: 100%; left: 0; top: 0; background-color: rgba(0,0,0,0); padding: 0; margin: 0; border: 0; text-align: left; }
+.formBtn:before {border: 0}
+.formBtn:after {border: 0}
+
+.insideBtn { position: absolute; width: 100%; height: 100%; left: 0; top: 0; background-color: rgba(0,0,0,0); padding: 0; margin: 0; border: 0; text-align: left; }
+.insideBtn:before {border: 0}
+.insideBtn:after {border: 0}
+
+
+
+.linePanel {width:100%; background-color:white; border-bottom:1px solid #f8f8f8; text-align:left;}
+.linePanel:first-child {border-top: 1px solid #f8f8f8;}
+.line {margin-left:25px; padding-right:25px; width:calc(100% - 50px); border-bottom:1px solid #f2f2f2;}
+.line:last-child {border-bottom: 0}
+
+.lineLeft {margin-right:20px; height:100%; text-align: left; color:#333333; font-size:30px; overflow:hidden;}
+.lineLeftIcon {margin: 0 20px 0 0; width: 50px; height: 100%;}
+.lineRight {margin: 0 20px 0 0; height: 100%; text-align: right; font-size: 26px; color: #555555; overflow:hidden;}
+.lineRightIcon {margin-left: 10px; width: 16px; height: 100%;}
+
+
+/*注意： 不能设置 padding-top或者padding-bottom，否则会导致多余行的文字显示出来*/
+.txtLine1_NoDots, .txtLine2_NoDots, .txtLine3_NoDots { line-height:1em; overflow:hidden; word-wrap: break-word;}
+.txtLine1, .txtLine2, .txtLine3, .txtLine5 { overflow:hidden; white-space:normal; word-wrap: break-word; display: -webkit-box; -webkit-box-orient: vertical;}
+.txtLine1_NoDots { height:1em;}
+.txtLine2_NoDots { height:2em;}
+.txtLine3_NoDots { height:3em;}
+.txtLine1 { -webkit-line-clamp: 1;}
+.txtLine2 { -webkit-line-clamp: 2;}
+.txtLine3 { -webkit-line-clamp: 3;}
+.txtLine5 { -webkit-line-clamp: 5;}
+
+
+.pageView {width: 100%; height: calc(100vh - 100px); font-size: 14px;}
+.pageContainer {position: relative; padding: 20px; width: calc(100% - 35px); height: 100%; border: 1px solid #dddddd; border-radius: 5px; background-color: white;}
+
+.pagePopView {position: fixed; left:210px; top:40px; width: calc(100% - 215px); height: calc(100% - 80px); background-color: white; z-index: 100;}
+.pagePopBlackView {position: fixed; left:190px; top:45px; width: calc(100% - 200px); height: calc(100% - 60px); background-color: rgba(0,0,0,0.2); z-index: 100;}
+.pagePopView .pagePopSub {position: absolute; width: calc(100% - 20px); height: calc(100% - 60px); padding: 10px; overflow-y: auto; overflow-x: hidden;}
+.pagePopView .pagePopBottom {position: absolute; bottom: 10px; left: 0 }
+
+.page {position: fixed; left: 210px; top:40px; width:calc(100% - 230px); height: calc(100vh - 50px); font-size: 13px; background-color: white; border-radius: 10px;}
+.pageTop {position: fixed; left: 210px; top:40px; padding: 5px 15px; width: calc(100% - 260px); height: 30px; background-color: #f4f4f4; border-top-left-radius: 10px; border-top-right-radius: 10px}
+.pageCenter {position: fixed; left: 210px; top:85px; padding: 10px; width: calc(100% - 250px); height: calc(100vh - 170px); overflow-y: scroll;}
+.pageCenter::-webkit-scrollbar{display: none}
+.pageCenter {-ms-overflow-style: none; scrollbar-width: none;}
+.pageBottom {position: fixed; left: 210px; bottom: 20px; padding: 5px 10px; width: calc(100% - 250px); height: 30px; background-color: white}
+
+.pagePop {position: fixed; left: 210px; top:40px; padding: 10px; width: calc(100% - 250px); height: calc(100vh - 120px); background-color: white; border-top-left-radius: 10px; border-top-right-radius: 10px; overflow-y: scroll;}
+.pagePop::-webkit-scrollbar{display: none}
+
+.filterView {margin: 0 0 8px 0; width: 100%}
+
+.inputArea {height: 25px; line-height: 25px; padding: 0 10px; border-radius: 4px; border: 1px solid #cccccc; outline: none}
+.el-upload--text {height: auto; width: auto}
+
+.left {margin: 0 15px 0 0; width: 80px; text-align: right; font-weight: bold; font-size: 12px; line-height: 20px}
+.right {width: calc(100% - 100px); text-align: left; font-size: 12px; line-height: 20px}
+
+.group {margin: 15px 20px 0 0; width: 150px;}
+.group .top {margin: 0 0 5px 0; width: calc(100% - 20px); text-align: left; font-weight: bold; font-size: 12px;}
+.group .bottom {width: calc(100% - 20px); text-align: left; font-size: 12px;}
+
+.btn {padding: 0 10px; height: 25px; line-height: 25px; font-size: 12px; text-align: center; border: 1px solid #eeeeee; border-radius: 4px;}
+
+.tblRow {height: 20px; font-size: 12px}
+
+.separateView {width: 100%; margin: 35px 0 15px 0; line-height: 20px; font-size: 16px; font-weight: bold}
+.separateLine {width: 100%; margin-bottom: 10px; height: 1px; background-color: #ddd}
+
+
+.imgSizeTip {margin: 5px 0; font-size: 12px; font-weight: bold; color: red;}
+
+
+/*element*/
+.el-dropdown-link {cursor: pointer; color: #409EFF; font-size: 12px !important; font-weight: bold !important;}
+.el-icon-arrow-down {font-size: 12px !important; font-weight: bold !important;}
+.el-checkbox__label {padding-left: 5px !important; font-size: 12px !important; color: #409EFF;}
+.el-form-item__label {font-size: 12px !important; font-weight: bold;}
+.el-radio__label {font-size: 12px !important;}

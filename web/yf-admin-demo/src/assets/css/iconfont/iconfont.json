@@ -1,0 +1,93 @@
+{
+  "id": "2225977",
+  "name": "co_serve_ms",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "企丈人管理后台",
+  "glyphs": [
+    {
+      "icon_id": "17899149",
+      "name": "活动",
+      "font_class": "huodong",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "6624934",
+      "name": "知识",
+      "font_class": "zhishi",
+      "unicode": "e70f",
+      "unicode_decimal": 59151
+    },
+    {
+      "icon_id": "5268444",
+      "name": "反馈",
+      "font_class": "fankui",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "3067018",
+      "name": "小程序",
+      "font_class": "xiaochengxu",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "1219596",
+      "name": "项目",
+      "font_class": "gongzuotai-copy",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "4009853",
+      "name": "企业",
+      "font_class": "qiye",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "7508163",
+      "name": "账号",
+      "font_class": "zhanghao",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "8825662",
+      "name": "首页-选中",
+      "font_class": "yemian",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "11598529",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "12364267",
+      "name": "账号",
+      "font_class": "zhanghao1",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "15426940",
+      "name": "服务",
+      "font_class": "fuwu1",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "17832759",
+      "name": "订单管理",
+      "font_class": "icon-dingdan",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}
